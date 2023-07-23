@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-#gameboard {
+#gameBoard {
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 225px;
