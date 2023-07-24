@@ -10,8 +10,8 @@ let playerScore = 0;
 let computerScore = 0;
 
 const updateScores = () => {
-  document.getElementById('playerScore').textContent = playerScore;
-  document.getElementById('computerScore').textContent = computerScore;
+    document.getElementById('playerScore').textContent = playerScore;
+    document.getElementById('computerScore').textContent = computerScore;
 };
 
 const result = ['rock', 'paper', 'scissors'];
@@ -20,7 +20,7 @@ const resultImage = [
     "url(icons/rock.png) no-repeat center / 150px 150px",
     "url(icons/scissors.png) no-repeat center / 150px 150px",
     "url(icons/paper.png) no-repeat center / 150px 150px"
-  ];
+];
 
 const show = (user, computer, result) => {
     computerChoiceText.innerText = computer;
@@ -71,7 +71,7 @@ const game = (user, computer) => {
     } else if (message === 'Computer Wins!') {
         computerScore++;
     }
-    
+
     // Update the displayed scores
     updateScores();
 

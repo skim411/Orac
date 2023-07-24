@@ -5,19 +5,19 @@ body {
 
 .game-icon {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
 }
 
-.game-icon:hover .game-icon-hover{
+.game-icon:hover .game-icon-hover {
     display: inline;
 }
 
 .game-icon .game-icon-hover {
     display: none;
     position: absolute;
-    top:0;
-    left:0;
-    z-index:99;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .games {

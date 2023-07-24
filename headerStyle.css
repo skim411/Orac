@@ -1,36 +1,36 @@
 header {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 45px;
-    left: 0;
-    right: 0;
-    z-index: 100;
-  }
-  
-  .logo-img {
-    width: 300px;
-    cursor: pointer;
-  }
-  
-  .aboutus {
-    padding: 10px 15px;
-    margin-right: 40px;
-    border: 1px;
-    border-radius: 3px;
-    background-color: lightgray;
-    font-size: 25px;
-  }
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 45px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
 
-  a:link {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.logo-img {
+  width: 300px;
+  cursor: pointer;
+}
 
-  .aboutus:hover {
-    padding: 15px 20px;
-  }
+.aboutus {
+  padding: 10px 15px;
+  margin-right: 40px;
+  border: 1px;
+  border-radius: 3px;
+  background-color: lightgray;
+  font-size: 25px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.aboutus:hover {
+  padding: 15px 20px;
+}
