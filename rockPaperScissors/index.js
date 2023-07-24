@@ -17,9 +17,9 @@ const updateScores = () => {
 const result = ['rock', 'paper', 'scissors'];
 
 const resultImage = [
-    "url(rock.png) no-repeat center / 150px 150px",
-    "url(scissors.png) no-repeat center / 150px 150px",
-    "url(paper.png) no-repeat center / 150px 150px"
+    "url(icons/rock.png) no-repeat center / 150px 150px",
+    "url(icons/scissors.png) no-repeat center / 150px 150px",
+    "url(icons/paper.png) no-repeat center / 150px 150px"
   ];
 
 const show = (user, computer, result) => {
