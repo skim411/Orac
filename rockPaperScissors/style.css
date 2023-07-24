@@ -20,7 +20,6 @@ body {
   justify-content: space-between;
   padding: 10px;
   align-items: top;
-  /* margin-bottom: 100px; */
   width: 50%;
 }
 
@@ -37,10 +36,8 @@ body {
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 50%;
   overflow-x: hidden;
-  padding-top: 20px;
-  margin-top: 225px;
+  align-items: top;
 }
   
 .left {
@@ -64,17 +61,16 @@ body {
 
 
 .player-choice-img, .computer-choice-img {
-  background: center no-repeat;
-  /* background-size: 150px 150px; */
+  background: center no-repeat lightgray;
   color: transparent;
   width: 150px;
   height: 150px;
   margin-top: 10%;
   margin-bottom: 10%;
-  /* border-radius: 50px;
+  border-radius: 50px;
   border: none;
   color: transparent;
-  font-size: 1.5em; */
+  font-size: 1.5em;
   box-shadow: none;
 }
 
