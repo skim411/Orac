@@ -37,7 +37,7 @@ body {
   width: 50%;
   position: fixed;
   z-index: 1;
-  top: 0;
+  top: 50%;
   overflow-x: hidden;
   padding-top: 20px;
   margin-top: 225px;
@@ -62,9 +62,6 @@ body {
   align-items: center;
 }
 
-.choice-img {
-  border: 0;
-}
 
 .player-choice-img, .computer-choice-img {
   background: center no-repeat;
@@ -74,6 +71,11 @@ body {
   height: 150px;
   margin-top: 10%;
   margin-bottom: 10%;
+  /* border-radius: 50px;
+  border: none;
+  color: transparent;
+  font-size: 1.5em; */
+  box-shadow: none;
 }
 
 button {
@@ -111,17 +113,17 @@ button {
 }
   
 .rock {
-  background: url("rock.png") center no-repeat;
+  background: url("icons/rock.png") center no-repeat;
   background-size: 50px 50px;
 }
 
 .scissors {
-  background: url("scissors.png") center no-repeat;
+  background: url("icons/scissors.png") center no-repeat;
   background-size: 50px 50px;
 }
 
 .paper {
-  background: url("paper.png") center no-repeat;
+  background: url("icons/paper.png") center no-repeat;
   background-size: 50px 50px;
 }
   
