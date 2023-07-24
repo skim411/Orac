@@ -9,28 +9,34 @@ header {
   left: 0;
   right: 0;
   z-index: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo-img {
-  width: 300px;
+  width: 250px;
   cursor: pointer;
 }
 
-.aboutus {
-  padding: 10px 15px;
+.aboutUs {
+  padding: 10px 10px;
   margin-right: 40px;
   border: 1px;
   border-radius: 3px;
   background-color: lightgray;
-  font-size: 25px;
-}
-
-a:link {
+  font-size: 20px;
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
-.aboutus:hover {
-  padding: 15px 20px;
+.aboutUs:hover {
+  padding: 15px 15px;
 }
+
+/* a:link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
