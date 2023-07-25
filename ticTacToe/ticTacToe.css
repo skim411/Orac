@@ -2,6 +2,10 @@ main {
     margin: 120px;
 }
 
+body {
+    margin: 0 100px
+}
+
 .cell {
     width: 75px;
     height: 75px;
