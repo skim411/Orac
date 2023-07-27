@@ -13,7 +13,20 @@ section {
     grid-area: 2 / 2 / 6 / 6;
 }
 
+pre code {
+    white-space: normal;
+}
+
 .intro {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1em
+}
+
+.about-us-icon {
+    width: 5%;
+}
+
+.siyeon {
+    background-color: gray;
 }
