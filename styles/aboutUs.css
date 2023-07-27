@@ -1,0 +1,14 @@
+/* General - Copy this to your css*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-template-columns: 120px repeat(4, 1fr);
+    grid-template-rows: 100px repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+section {
+    grid-area: 2 / 2 / 6 / 6;
+}
