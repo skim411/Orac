@@ -1,9 +1,6 @@
 .sidebar {
-    top: 20%;
-    left: 5%;
-    bottom: 0px;
-    width: 10%;
-    position: fixed;
+    width: 100%;
+    grid-area: 2 / 1 / 6 / 2;
 }
 
 .sidebar-link {
@@ -14,6 +11,8 @@
     justify-content: space-between;
     cursor: pointer;
     padding: 5%;
+    margin-top: 50px;
+    margin-left: 15px;
 }
 
 .sidebar-link:hover {

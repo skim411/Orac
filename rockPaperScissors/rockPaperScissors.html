@@ -2,62 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="rockPaperScissors.css" />
-  <link rel="stylesheet" href="../styles/headerStyle.css" />
-  <title>RPS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+
+  <link rel="stylesheet" href="rockPaperScissors.css">
+  <link rel="stylesheet" href="../styles/headerStyle.css">
+  <link rel="stylesheet" href="../styles/sidebar.css">
 </head>
 
 <body>
   <header>
-    <div class="left-section">
-      <a href="../index.html">
-        <img class="logo-img" src="../oracLogo.png">
-      </a>
-    </div>
-    <!-- <div class="right-section">
-        <a class="aboutusbtn" href="../aboutUs.html">About us</a>
-      </div> -->
+      <a href="../index.html"><img class="logo-img" src="../oracLogo.png"></a>
+      <a class="aboutUs" href="../aboutUs.html">About us</a>
   </header>
-
-  <div class="title">Rock Paper Scissors!</div>
-
-  <div class="score-bar">
-    <p class="score"><span id="playerScore">0</span></p>
-    <p class="score">:</p>
-    <p class="score"><span id="computerScore">0</span></p>
-  </div>
-
-  <div class="split left">
-    <div class="centered">
-      <h3>Player :</h3>
-      <div class="choice-img">
-        <img class="player-choice-img" id="playerImage" />
-      </div>
-      <p class="player-choice-text">-</p>
+  <nav class="sidebar">
+    <div class="sidebar-link">
+        <a href="../rockPaperScissors/rockPaperScissors.html">
+            <img src="../gameIcon/rockPaperScissors.png">
+            <div>Rock Paper Scissors</div>
+        </a>
     </div>
-  </div>
+    <div class="sidebar-link">
+        <a href="../ticTacToe/ticTacToe.html">
+            <img src="../gameIcon/ticTacToeIcon.png">
+            <div>Tic Tac Toe</div>
+        </a>
+    </div>
+    <div class="sidebar-link">
+        <a href="../snakeGame/snakeGame.html">
+            <img src="../gameIcon/snakegame.png">
+            <div>Snake Game</div>
+        </a>
+    </div>
+  </nav>
 
-  <div class="split right">
-    <div class="centered">
-      <h3>Computer :</h3>
-      <div class="choice-img">
-        <img class="computer-choice-img" id="computerImage" />
+  <section>
+    <div class="title">Rock Paper Scissors!</div>
+
+    <div class="split left">
+      <div class="centered">
+        <h3>Player :</h3>
+        <div class="choice-img">
+          <img class="player-choice-img" id="playerImage" />
+        </div>
+        <p class="player-choice-text">-</p>
       </div>
-      <p class="computer-choice-text">-</p>
     </div>
 
-  </div>
+    <div class="split right">
+      <div class="centered">
+        <h3>Computer :</h3>
+        <div class="choice-img">
+          <img class="computer-choice-img" id="computerImage" />
+        </div>
+        <p class="computer-choice-text">-</p>
+      </div>
+    </div>
 
-  <div class="buttons">
-    <button class="rock">rock</button>
-    <button class="paper">paper</button>
-    <button class="scissors">scissors</button>
-  </div>
+    <div class="buttons">
+      <button class="rock">rock</button>
+      <button class="paper">paper</button>
+      <button class="scissors">scissors</button>
+    </div>
 
-  <div class="result">Game Start!</div>
+    <div class="result">Game Start!</div>
+  </section>
 
   <script src="./rockPaperScissors.js"></script>
 </body>
