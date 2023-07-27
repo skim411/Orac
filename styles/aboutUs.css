@@ -12,3 +12,8 @@ body {
 section {
     grid-area: 2 / 2 / 6 / 6;
 }
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
