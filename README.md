@@ -1,5 +1,5 @@
 # Orac 
-<img src="logo.png" width=100>
+<img src="oracLogo.png" width=200>
 
 ## About the project
 Play only the best three games on our site!
